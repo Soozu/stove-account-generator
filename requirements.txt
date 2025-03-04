@@ -1,0 +1,7 @@
+selenium>=4.15.2
+undetected-chromedriver>=3.5.3
+customtkinter>=5.2.1
+Pillow>=10.1.0
+pyinstaller>=6.2.0
+requests>=2.31.0
+colorama>=0.4.6 
