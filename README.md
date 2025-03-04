@@ -22,19 +22,46 @@ A Python-based GUI application for automated Stove account generation with built
   - Progress tracking
   - User-friendly settings
 
-## System Requirements
+## Requirements
 
 - Windows 10 or later
+- Python 3.8 or higher
 - Google Chrome browser
+- NSIS (for building installer)
 
-## Download and Installation
+## Installation
 
-1. Go to the [Releases](../../releases) page
-2. Download the latest `Stove_Account_Generator_Setup.exe`
-3. Run the installer
-4. Follow the installation wizard
+### Using Installer
+1. Download the latest release
+2. Run the installer
+3. Follow the installation wizard
 
-The application will be installed to `C:\Stove Account Generator` by default.
+### Manual Installation
+1. Clone the repository
+```bash
+git clone https://github.com/soozu/stove-account-generator.git
+cd stove-account-generator
+```
+
+2. Install required packages
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the application
+```bash
+python gui_interface.py
+```
+
+## Building from Source
+
+1. Install NSIS (Nullsoft Scriptable Install System)
+2. Run the build script:
+```bash
+python build.py
+```
+
+The built application and installer will be in the `builds` directory.
 
 ## Configuration
 
@@ -44,16 +71,20 @@ The application will be installed to `C:\Stove Account Generator` by default.
 
 ## Usage
 
-1. Launch the application from desktop shortcut or start menu
+1. Launch the application
 2. Configure desired settings
 3. Enter the number of accounts to generate
 4. Click "Start Generation"
 5. Complete CAPTCHA when prompted
 6. Monitor progress in the log window
 
-## Updates
+## Contributing
 
-The application will automatically check for updates when launched. If an update is available, you will be prompted to install it.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
 

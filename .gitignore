@@ -1,8 +1,3 @@
-# Hide all source code
-*.py
-*.nsi
-*.spec
-
 # Python
 __pycache__/
 *.py[cod]
@@ -53,17 +48,6 @@ version.json
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-
-# Resources
-*.ico
-*.png
-*.bmp
-*.jpg
-*.jpeg
-
-# Keep releases
-!releases/
-!releases/*
 
 # Installer
 *.exe
