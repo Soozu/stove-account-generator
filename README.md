@@ -36,32 +36,6 @@ A Python-based GUI application for automated Stove account generation with built
 2. Run the installer
 3. Follow the installation wizard
 
-### Manual Installation
-1. Clone the repository
-```bash
-git clone https://github.com/soozu/stove-account-generator.git
-cd stove-account-generator
-```
-
-2. Install required packages
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the application
-```bash
-python gui_interface.py
-```
-
-## Building from Source
-
-1. Install NSIS (Nullsoft Scriptable Install System)
-2. Run the build script:
-```bash
-python build.py
-```
-
-The built application and installer will be in the `builds` directory.
 
 ## Configuration
 
