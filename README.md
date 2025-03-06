@@ -98,4 +98,47 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Disclaimer
 
-This tool is for educational purposes only. Use at your own risk and responsibility. 
+This tool is for educational purposes only. Use at your own risk and responsibility.
+
+# STOVE License Server
+
+A secure license validation server for the STOVE Account Generator.
+
+## Setup
+
+1. Clone the repository
+2. Create a `.env` file based on `.env.example`
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Environment Variables
+
+Copy `.env.example` to `.env` and configure:
+- `API_KEY`: Your secure API key for admin operations
+- `DB_PATH`: Path to the license database file
+- `ENCRYPTION_KEY`: Your encryption key for secure communication
+- `SERVER_URL`: Your server's URL
+
+## Deployment
+
+1. Set up a Railway account
+2. Connect your GitHub repository
+3. Configure environment variables in Railway dashboard
+4. Deploy
+
+## Security Notes
+
+- Keep your `.env` file secure and never commit it
+- Regularly rotate API keys
+- Monitor server logs for unauthorized access attempts
+- Use HTTPS in production
+
+## License
+
+Private - All rights reserved
+
+## Contact
+
+For support or inquiries, contact on Discord: Ohhh#8261 

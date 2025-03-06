@@ -1,9 +1,10 @@
 # Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
+*.pyc
+*.pyo
+*.pyd
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -15,7 +16,6 @@ lib64/
 parts/
 sdist/
 var/
-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -54,4 +54,12 @@ Desktop.ini
 *.msi
 *.cab
 *.msm
-*.msp 
+*.msp
+
+# Security and sensitive files
+.env
+error_reports/
+license.json
+licenses_db.json
+*.key
+secrets.py 
