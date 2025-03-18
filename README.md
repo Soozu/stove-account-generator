@@ -1,75 +1,186 @@
 # Stove Account Generator
 
-A Python-based GUI application for automated Stove account generation with built-in account management features.
+A Python-based GUI application for automated Stove account generation with built-in account management and license validation system.
 
-## Features
+## Key Features
 
-- **Automated Account Creation**
-  - Automated form filling
-  - CAPTCHA handling support
-  - Email verification integration
-  - Custom password length settings (8-15 characters)
+### Account Generation
+- **Automated Registration**
+  - Smart form filling with randomized data
+  - Intelligent CAPTCHA handling
+  - Automated email verification process
+  - Customizable password generation (8-15 characters)
+  - Rate limiting protection
 
-- **Account Management**
-  - Save and manage generated accounts
+### Account Management
+- **Comprehensive Storage System**
+  - JSON-based account database
+  - Backup text file storage
+  - Account status tracking (Active/Inactive/Verified)
   - Import/Export functionality
-  - Account status tracking
-  - Built-in account viewer
+  - Bulk account operations
 
-- **User Interface**
-  - Modern GUI with dark/light theme
-  - Real-time logging
-  - Progress tracking
-  - User-friendly settings
+### Security Features
+- **License System**
+  - Free license keys available from @Ohh on Discord
+  - Automatic validation
+  - Offline grace period
+  - Device tracking
+  - Activity logging
 
-## Requirements
+### User Interface
+- **Modern Design**
+  - Dark/Light theme support
+  - Real-time progress tracking
+  - Detailed logging window
+  - Status indicators
+  - Error handling with user-friendly messages
+
+### Maintenance
+- **System Tools**
+  - Automatic updates
+  - Error reporting
+  - Log management
+  - Database backup/restore
+  - Configuration manager
+
+## System Requirements
 
 - Windows 10 or later
-- Python 3.8 or higher
+- Python 3.8+
 - Google Chrome browser
+- 4GB RAM minimum
+- Internet connection
 - NSIS (for building installer)
 
 ## Installation
 
-### Using Installer
-1. Download the latest release
-2. Run the installer
-3. Follow the installation wizard
+### Quick Install
+1. Download latest release
+2. Run installer
+3. Desktop shortcut will be created automatically
+4. Previous versions will be removed automatically
 
+### Developer Installation
+```bash
+git clone https://github.com/soozu/stove-account-generator.git
+cd stove-account-generator
+pip install -r requirements.txt
+python gui_interface.py
+```
 
-## Configuration
+## Building from Source
 
-- **Password Settings**: Configure password length (8-15 characters)
-- **Theme Settings**: Choose between light and dark themes
-- **Account Storage**: Accounts are stored in `accounts.json` and `accounts.txt`
+1. Install NSIS
+2. Run build script:
+```bash
+python build.py
+```
+Built files will be in `builds/v{version}` directory
 
-## Usage
+## Configuration Options
 
-1. Launch the application
-2. Configure desired settings
-3. Enter the number of accounts to generate
-4. Click "Start Generation"
-5. Complete CAPTCHA when prompted
-6. Monitor progress in the log window
+### Account Generation
+- Password length: 8-15 characters
+- Generation delay: 0-60 seconds
+- Proxy support: HTTP/SOCKS
+- Custom email domains
+- Name generation patterns
+
+### Interface
+- Theme selection (Dark/Light)
+- Log level (Debug/Info/Error)
+- Window size/position memory
+- Custom font settings
+- Shortcut preferences
+
+### Storage
+- Account database location
+- Backup frequency
+- Export format (JSON/TXT/CSV)
+- Auto-cleanup settings
+- Data encryption options
+
+## Usage Guide
+
+1. **Initial Setup**
+   - Launch application
+   - Contact @Ohh on Discord for free license
+   - Enter license key when prompted
+
+2. **Basic Operation**
+   - Configure desired settings
+   - Set number of accounts
+   - Click "Start Generation"
+   - Handle CAPTCHA if needed
+   - Monitor progress
+
+3. **Account Management**
+   - View generated accounts
+   - Export accounts
+   - Check account status
+   - Perform bulk operations
+
+4. **Maintenance**
+   - Regular backups
+   - Clear old logs
+   - Update when prompted
+   - Report any issues
+
+## Support
+
+- Discord: Contact @Ohh for:
+  - Free license keys
+  - Technical support
+  - Feature requests
+  - Bug reports
+  - General inquiries
+
+## License & Legal
+
+- **License**: Free for educational purposes
+- **Support**: Free support via Discord
+- **Updates**: Free automatic updates
+- **Disclaimer**: This software is for educational purposes only
+- **Usage**: Use responsibly and at your own risk
+
+## Technical Details
+
+### Core Components
+- GUI: CustomTkinter
+- Web Automation: Selenium/undetected-chromedriver
+- Database: JSON/SQLite
+- Networking: Requests/Socket
+- Encryption: Cryptography
+
+### File Structure
+stove-account-generator/
+├── gui_interface.py      # Main GUI
+├── account_generator.py  # Core generation logic
+├── license_check.py     # License validation
+├── maintenance.py       # System maintenance
+├── email_handler.py     # Email verification
+└── settings.json        # Configuration
+```
 
 ## Contributing
 
+This is an educational project. Feel free to:
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+2. Create feature branch
+3. Submit pull requests
+4. Report issues
+5. Suggest improvements
 
 ## Acknowledgments
 
-- [Selenium](https://www.selenium.dev/) for web automation
-- [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) for modern UI
-- [undetected-chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver) for browser automation
+- Selenium for automation
+- CustomTkinter for UI
+- undetected-chromedriver for browser control
+- Python community for support
 
-## Disclaimer
+## Contact
 
-This tool is for educational purposes only. Use at your own risk and responsibility. 
+For all inquiries, contact @Ohh on Discord
+Free support and license keys available
+Educational use only 
