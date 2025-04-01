@@ -1,15 +1,15 @@
-# Stove Account Generator
+# STOVE Account Generator v0.5.3
 
-A Python-based GUI application for automated Stove account generation with built-in account management and license validation system.
+A Python-based application for automated STOVE account generation with built-in account management and license validation system.
 
 ## Key Features
 
 ### Account Generation
 - **Automated Registration**
   - Smart form filling with randomized data
-  - Intelligent CAPTCHA handling
+  - Manual CAPTCHA handling for reliability
   - Automated email verification process
-  - Customizable password generation (8-15 characters)
+  - Secure password generation
   - Rate limiting protection
 
 ### Account Management
@@ -23,7 +23,7 @@ A Python-based GUI application for automated Stove account generation with built
 ### Security Features
 - **License System**
   - Free license keys available from @Ohh on Discord
-  - Automatic validation
+  - Automatic validation with expiration dates
   - Offline grace period
   - Device tracking
   - Activity logging
@@ -38,7 +38,7 @@ A Python-based GUI application for automated Stove account generation with built
 
 ### Maintenance
 - **System Tools**
-  - Automatic updates
+  - Automatic updates via GitHub releases
   - Error reporting
   - Log management
   - Database backup/restore
@@ -56,7 +56,7 @@ A Python-based GUI application for automated Stove account generation with built
 ## Installation
 
 ### Quick Install
-1. Download latest release
+1. Download latest release (v0.5.3)
 2. Run installer
 3. Desktop shortcut will be created automatically
 4. Previous versions will be removed automatically
@@ -66,7 +66,7 @@ A Python-based GUI application for automated Stove account generation with built
 git clone https://github.com/soozu/stove-account-generator.git
 cd stove-account-generator
 pip install -r requirements.txt
-python gui_interface.py
+python terminal_generator.py
 ```
 
 ## Building from Source
@@ -110,7 +110,7 @@ Built files will be in `builds/v{version}` directory
 
 2. **Basic Operation**
    - Configure desired settings
-   - Set number of accounts
+   - Set number of accounts (1-100)
    - Click "Start Generation"
    - Handle CAPTCHA if needed
    - Monitor progress
@@ -155,13 +155,12 @@ Built files will be in `builds/v{version}` directory
 
 ### File Structure
 stove-account-generator/
-├── gui_interface.py      # Main GUI
-├── account_generator.py  # Core generation logic
-├── license_check.py     # License validation
-├── maintenance.py       # System maintenance
-├── email_handler.py     # Email verification
-└── settings.json        # Configuration
-```
+├── terminal_generator.py  # Main terminal interface
+├── account_generator.py   # Core generation logic
+├── license_manager.py     # License validation
+├── maintenance.py        # System maintenance
+├── email_handler.py      # Email verification
+└── settings.json         # Configuration
 
 ## Contributing
 
