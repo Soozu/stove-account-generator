@@ -7,7 +7,7 @@ Crossfire Account Stove Generator by @Ohhh
 | Feature | Licensed Version (v0.6.0) | Free Version (v0.0.1) |
 |---------|---------------------------|------------------------|
 | Account Generation | ✅ Up to 100 accounts | ✅ Limited to 1-3 accounts |
-| Multi-threaded Generation | ✅ Fixed 2 threads for optimal performance | ✅ Fixed 2 threads |
+| Multi-threaded Generation | ✅ Fixed 2 threads for optimal performance | ❌ Fixed 2 threads |
 | Smart Email Management | ✅ Prevents email reuse | ✅ Prevents email reuse |
 | Chrome Window Positioning | ✅ Optimized window layouts | ✅ Basic left-half screen position |
 | Chrome Cache Cleaning | ✅ Full cache optimization | ✅ Basic cache cleaning |
