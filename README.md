@@ -47,7 +47,7 @@ Crossfire Account Stove Generator by @Ohhh
 
 ## Contact & Support
 - Discord: [Join Our Server](https://discord.gg/QK6F7KzKZ7)
-- Discord Username: stove_support
+- Discord Username: @Ohh
 - Report issues on GitHub or Discord
 
 ## Changelog
