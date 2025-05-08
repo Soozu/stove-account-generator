@@ -6,8 +6,8 @@ Crossfire Account Stove Generator by @Ohhh
 
 | Feature | Licensed Version (v0.6.0) | Free Version (v0.0.1) |
 |---------|---------------------------|------------------------|
-| Account Generation | ✅ Up to 100 accounts | ✅ Limited to 1-3 accounts |
-| Multi-threaded Generation | ✅ Fixed 2 threads for optimal performance | ❌ Fixed 2 threads |
+| Account Generation | ✅ Up to 100 accounts | ✅ Limited to 1-3 accounts per generation, 20 per day |
+| Multi-threaded Generation | ✅ Fixed 2 threads for optimal performance | ❌ Single thread only |
 | Smart Email Management | ✅ Prevents email reuse | ✅ Prevents email reuse |
 | Chrome Window Positioning | ✅ Optimized window layouts | ✅ Basic left-half screen position |
 | Chrome Cache Cleaning | ✅ Full cache optimization | ✅ Basic cache cleaning |
@@ -31,7 +31,7 @@ Crossfire Account Stove Generator by @Ohhh
 - **Current Version**: v0.0.1
 - **Features**: Basic functionality with limitations
 - **Download**: [STOVE_Generator_Free_v0.0.1.exe](https://github.com/YourUsername/stove-generator/releases/download/v0.0.1/STOVE_Generator_Free_v0.0.1.exe)
-- **Limitations**: Maximum 3 accounts, basic features only
+- **Limitations**: Maximum 3 accounts per generation, 20 accounts per day, basic features only
 
 ## Requirements
 - Windows 10/11
@@ -47,7 +47,7 @@ Crossfire Account Stove Generator by @Ohhh
 
 ## Contact & Support
 - Discord: [Join Our Server](https://discord.gg/QK6F7KzKZ7)
-- Discord Username: @Ohhh
+- Discord Username: stove_support
 - Report issues on GitHub or Discord
 
 ## Changelog
@@ -62,7 +62,7 @@ Crossfire Account Stove Generator by @Ohhh
 
 ### v0.0.1 (Free)
 - Initial free version release
-- Basic account generation (max 3 accounts)
+- Basic account generation (max 3 accounts per generation, 20 per day)
 - Basic Chrome optimization
 - Limited feature set
 
