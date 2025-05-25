@@ -156,4 +156,4 @@ This tool is provided for educational purposes only. Users are responsible for e
 
 **🎯 Ready to generate accounts? Download now and start creating!**
 
-© 2024 @Ohhh | STOVE Account Generator - FREE VERSION | All Rights Reserved 
+© 2025 @Ohhh | STOVE Account Generator - FREE VERSION | All Rights Reserved 
