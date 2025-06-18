@@ -12,10 +12,13 @@ This is a **100% FREE** version of the STOVE Account Generator with full functio
 |---------|--------|
 | Account Generation | ✅ Up to 100 accounts per session |
 | Multi-threaded Generation | ✅ 1 thread (optimized for free version) |
+| **Single Account Generation** | ✅ **Enhanced individual account creation** |
+| **Modular Architecture** | ✅ **Refactored component system** |
 | Smart Email Management | ✅ Prevents email reuse |
 | Chrome Window Positioning | ✅ Optimized window layouts |
 | Chrome Cache Cleaning | ✅ Full cache optimization |
 | System Health Check | ✅ Complete system diagnostics |
+| **Component Testing** | ✅ **Automated component verification** |
 | **Enhanced Update System** | ✅ **Automatic GitHub updates** |
 | **Version Management** | ✅ **Smart version detection** |
 | **ChromeDriver Management** | ✅ **Automatic Chrome compatibility** |
@@ -26,20 +29,20 @@ This is a **100% FREE** version of the STOVE Account Generator with full functio
 | Google Chrome Optimization | ✅ Full optimization |
 | **Automatic Updates** | ✅ **Download & install from GitHub** |
 
-## 🚀 **New in v1.2.1**
+## 🚀 **New in v1.2.2**
 
-- ✅ **Automatic ChromeDriver Management**
-- ✅ **Enhanced Chrome Compatibility**
-- ✅ **Performance Optimizations**
-- ✅ **Improved Build System**
-- ✅ **Better Error Handling**
-- ✅ **Optimized Chrome Options**
-- ✅ **Local ChromeDriver Support**
+- ✅ **Complete Code Refactoring** - Modular component architecture
+- ✅ **Enhanced Single Account Generation** - Individual account creation option
+- ✅ **Improved Error Handling** - Better error messages and recovery
+- ✅ **Component Testing Framework** - Automated component verification
+- ✅ **Smart Generation Methods** - Choice between threaded and single account modes
+- ✅ **Terminal Interface Upgrades** - Enhanced user experience with component detection
+- ✅ **Documentation Overhaul** - Comprehensive refactoring and terminal guides
 
 ## 📥 Download
 
-### Current Version: v1.2.1
-- **Features**: Full feature set with unlimited account generation
+### Current Version: v1.2.2
+- **Features**: Full feature set with unlimited account generation + modular architecture
 - **Download**: [Latest Release](https://github.com/Soozu/stove-account-generator/releases/latest)
 - **License**: **100% FREE - No license required!**
 - **Updates**: Automatic updates from GitHub
@@ -53,7 +56,7 @@ This is a **100% FREE** version of the STOVE Account Generator with full functio
 ## 🛠️ Installation
 1. Download the latest version from [GitHub Releases](https://github.com/Soozu/stove-account-generator/releases/latest)
 2. Extract the ZIP file to your desired location
-3. Run `STOVE_Account_Generator_v1.2.1.exe` as Administrator
+3. Run `STOVE_Account_Generator_v1.2.2.exe` as Administrator
 4. Follow the on-screen instructions to generate accounts
 5. **No license key needed - it's completely FREE!**
 
@@ -77,15 +80,17 @@ The application now features an advanced update system:
 
 ## 📱 **Menu Options**
 
-1. **Generate Accounts** - Create new STOVE accounts
-2. **View Recent Accounts** - See your last generated accounts
-3. **System Health** - Check system status and requirements
-4. **Check for Updates** - Get latest version from GitHub
-5. **View Logs** - Diagnose any issues
-6. **Update ChromeDriver** - Download latest compatible driver
-7. **Clear Chrome Cache** - Optimize Chrome performance
-8. **Set Save Location** - Choose where to save accounts
-9. **Exit** - Close the application
+1. **Generate Accounts (Threaded)** - Create multiple accounts using optimized threading
+2. **Generate Single Account (Enhanced)** - Create individual accounts with refactored components
+3. **View Recent Accounts** - See your last generated accounts
+4. **System Health** - Check system status and requirements
+5. **Check for Updates** - Get latest version from GitHub
+6. **View Logs** - Diagnose any issues
+7. **Update ChromeDriver** - Download latest compatible driver
+8. **Clear Chrome Cache** - Optimize Chrome performance
+9. **Test Components** - Verify refactored components functionality
+10. **Set Save Location** - Choose where to save accounts
+11. **Exit** - Close the application
 
 ## 🔧 **System Health Check**
 
@@ -95,6 +100,8 @@ The built-in system health check verifies:
 - ✅ System memory and disk space
 - ✅ Required files and dependencies
 - ✅ Settings configuration
+- ✅ Refactored components availability
+- ✅ Component functionality testing
 
 ## 💬 **Contact & Support**
 - **Discord**: [Join Our Server](https://discord.gg/QK6F7KzKZ7)
@@ -103,7 +110,22 @@ The built-in system health check verifies:
 
 ## 📝 **Changelog**
 
-### v1.2.1 - Enhanced ChromeDriver & Performance (Current)
+### v1.2.2 - Modular Architecture & Enhanced Components (Current)
+- ✅ **NEW**: Complete code refactoring with modular components
+- ✅ **NEW**: Separate component files for better maintainability
+- ✅ **NEW**: Enhanced single account generation with refactored architecture
+- ✅ **NEW**: Component testing framework for reliability verification
+- ✅ **NEW**: Smart generation method selection (threaded vs. single)
+- ✅ **NEW**: Terminal interface upgrades with component detection
+- ✅ **NEW**: Comprehensive documentation (REFACTORING_GUIDE.md, TERMINAL_UPDATE_SUMMARY.md)
+- ✅ **IMPROVED**: Error handling with better user feedback
+- ✅ **IMPROVED**: Code organization following Single Responsibility Principle
+- ✅ **IMPROVED**: Build system to include all refactored components
+- ✅ **IMPROVED**: Terminal user experience with enhanced status messages
+- ✅ **FIXED**: Component import issues and dependencies
+- ✅ **FIXED**: Backward compatibility maintained for all features
+
+### v1.2.1 - Enhanced ChromeDriver & Performance
 - ✅ **NEW**: Automatic ChromeDriver management system
 - ✅ **NEW**: Chrome version compatibility detection
 - ✅ **NEW**: Local ChromeDriver support for better reliability
@@ -142,11 +164,17 @@ This project includes a comprehensive build system:
 - **Automatic builds** with PyInstaller
 - **GitHub integration** for releases
 - **Build scripts** for easy deployment
+- **Modular component architecture** for maintainability
+- **Component verification** in build process
+- **Comprehensive documentation** integration
 
 ### Build Commands:
 ```bash
-# Update version and build
-python build.py --type minor --name "New Features"
+# Update version and build with refactored components
+python build.py --type minor --name "Modular Architecture"
+
+# Test refactored components before building
+python test_refactored_components.py
 
 # Check current version
 python build_version_updater.py --show
