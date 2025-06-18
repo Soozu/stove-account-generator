@@ -18,25 +18,27 @@ This is a **100% FREE** version of the STOVE Account Generator with full functio
 | System Health Check | ✅ Complete system diagnostics |
 | **Enhanced Update System** | ✅ **Automatic GitHub updates** |
 | **Version Management** | ✅ **Smart version detection** |
+| **ChromeDriver Management** | ✅ **Automatic Chrome compatibility** |
+| **Performance Optimization** | ✅ **Enhanced speed & reliability** |
 | Log Viewer | ✅ View & diagnose logs |
 | Custom Save Location | ✅ Set custom save path |
 | License Verification | ❌ **Not required - completely FREE!** |
 | Google Chrome Optimization | ✅ Full optimization |
 | **Automatic Updates** | ✅ **Download & install from GitHub** |
 
-## 🚀 **New in v1.1.0**
+## 🚀 **New in v1.2.1**
 
-- ✅ **Enhanced Version Management System**
-- ✅ **Automatic GitHub Integration**
-- ✅ **Smart Update Detection**
-- ✅ **One-click Updates**
-- ✅ **Version History Tracking**
-- ✅ **Build System Integration**
-- ✅ **No License Required**
+- ✅ **Automatic ChromeDriver Management**
+- ✅ **Enhanced Chrome Compatibility**
+- ✅ **Performance Optimizations**
+- ✅ **Improved Build System**
+- ✅ **Better Error Handling**
+- ✅ **Optimized Chrome Options**
+- ✅ **Local ChromeDriver Support**
 
 ## 📥 Download
 
-### Current Version: v1.1.0
+### Current Version: v1.2.1
 - **Features**: Full feature set with unlimited account generation
 - **Download**: [Latest Release](https://github.com/Soozu/stove-account-generator/releases/latest)
 - **License**: **100% FREE - No license required!**
@@ -51,7 +53,7 @@ This is a **100% FREE** version of the STOVE Account Generator with full functio
 ## 🛠️ Installation
 1. Download the latest version from [GitHub Releases](https://github.com/Soozu/stove-account-generator/releases/latest)
 2. Extract the ZIP file to your desired location
-3. Run `STOVE_Account_Generator_v1.1.0.exe` as Administrator
+3. Run `STOVE_Account_Generator_v1.2.1.exe` as Administrator
 4. Follow the on-screen instructions to generate accounts
 5. **No license key needed - it's completely FREE!**
 
@@ -80,9 +82,10 @@ The application now features an advanced update system:
 3. **System Health** - Check system status and requirements
 4. **Check for Updates** - Get latest version from GitHub
 5. **View Logs** - Diagnose any issues
-6. **Clear Chrome Cache** - Optimize Chrome performance
-7. **Set Save Location** - Choose where to save accounts
-8. **Exit** - Close the application
+6. **Update ChromeDriver** - Download latest compatible driver
+7. **Clear Chrome Cache** - Optimize Chrome performance
+8. **Set Save Location** - Choose where to save accounts
+9. **Exit** - Close the application
 
 ## 🔧 **System Health Check**
 
@@ -100,7 +103,19 @@ The built-in system health check verifies:
 
 ## 📝 **Changelog**
 
-### v1.1.0 - Enhanced Version Management (Current)
+### v1.2.1 - Enhanced ChromeDriver & Performance (Current)
+- ✅ **NEW**: Automatic ChromeDriver management system
+- ✅ **NEW**: Chrome version compatibility detection
+- ✅ **NEW**: Local ChromeDriver support for better reliability
+- ✅ **NEW**: Performance optimizations for faster generation
+- ✅ **NEW**: Enhanced build system with better packaging
+- ✅ **IMPROVED**: Chrome options for reduced memory usage
+- ✅ **IMPROVED**: Error handling and user feedback
+- ✅ **IMPROVED**: PyInstaller configuration for better builds
+- ✅ **FIXED**: ChromeDriver path issues in built executables
+- ✅ **FIXED**: Chrome compatibility problems
+
+### v1.1.0 - Enhanced Version Management
 - ✅ **NEW**: Enhanced version management system
 - ✅ **NEW**: Automatic GitHub update detection
 - ✅ **NEW**: One-click download and install
@@ -156,4 +171,4 @@ This tool is provided for educational purposes only. Users are responsible for e
 
 **🎯 Ready to generate accounts? Download now and start creating!**
 
-© 2025 @Ohhh | STOVE Account Generator - FREE VERSION | All Rights Reserved 
+© 2024 @Ohhh | STOVE Account Generator - FREE VERSION | All Rights Reserved 
