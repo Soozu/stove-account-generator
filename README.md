@@ -29,20 +29,20 @@ This is a **100% FREE** version of the STOVE Account Generator with full functio
 | Google Chrome Optimization | ✅ Full optimization |
 | **Automatic Updates** | ✅ **Download & install from GitHub** |
 
-## 🚀 **New in v1.2.2**
+## 🚀 **New in v1.2.3**
 
-- ✅ **Complete Code Refactoring** - Modular component architecture
-- ✅ **Enhanced Single Account Generation** - Individual account creation option
-- ✅ **Improved Error Handling** - Better error messages and recovery
-- ✅ **Component Testing Framework** - Automated component verification
-- ✅ **Smart Generation Methods** - Choice between threaded and single account modes
-- ✅ **Terminal Interface Upgrades** - Enhanced user experience with component detection
-- ✅ **Documentation Overhaul** - Comprehensive refactoring and terminal guides
+- ✅ **ChromeDriver Management** - Comprehensive automatic driver management system
+- ✅ **Build System Enhancements** - Interactive selector for Default/Modular/Both terminals
+- ✅ **Path Management Fixes** - Resolved all ChromeDriver download and placement issues
+- ✅ **Unicode Compatibility** - Fixed encoding issues for Windows console compatibility
+- ✅ **Enhanced Error Handling** - Better feedback for driver and build issues
+- ✅ **Cross-Platform Support** - Improved Windows environment compatibility
+- ✅ **Documentation Updates** - Comprehensive build guides and troubleshooting
 
 ## 📥 Download
 
-### Current Version: v1.2.2
-- **Features**: Full feature set with unlimited account generation + modular architecture
+### Current Version: v1.2.3
+- **Features**: Full feature set with unlimited account generation + enhanced ChromeDriver management
 - **Download**: [Latest Release](https://github.com/Soozu/stove-account-generator/releases/latest)
 - **License**: **100% FREE - No license required!**
 - **Updates**: Automatic updates from GitHub
@@ -56,7 +56,7 @@ This is a **100% FREE** version of the STOVE Account Generator with full functio
 ## 🛠️ Installation
 1. Download the latest version from [GitHub Releases](https://github.com/Soozu/stove-account-generator/releases/latest)
 2. Extract the ZIP file to your desired location
-3. Run `STOVE_Account_Generator_v1.2.2.exe` as Administrator
+3. Run `STOVE_Account_Generator_v1.2.3.exe` as Administrator
 4. Follow the on-screen instructions to generate accounts
 5. **No license key needed - it's completely FREE!**
 
@@ -110,7 +110,19 @@ The built-in system health check verifies:
 
 ## 📝 **Changelog**
 
-### v1.2.2 - Modular Architecture & Enhanced Components (Current)
+### v1.2.3 - ChromeDriver Path Management & Build System Fixes (Current)
+- ✅ **NEW**: Comprehensive ChromeDriver management system with automatic version detection
+- ✅ **NEW**: Smart Chrome version compatibility checking and auto-updates
+- ✅ **NEW**: Centralized ChromeDriverManager for reliable path resolution
+- ✅ **FIXED**: ChromeDriver download and path management issues
+- ✅ **FIXED**: Driver placement in correct folders during builds
+- ✅ **FIXED**: Path resolution for both development and executable environments
+- ✅ **IMPROVED**: Enhanced logging and debugging for ChromeDriver operations
+- ✅ **IMPROVED**: Better error handling and user feedback for driver issues
+- ✅ **IMPROVED**: Build documentation with comprehensive guides
+- ✅ **IMPROVED**: Cross-platform path handling for Windows environments
+
+### v1.2.2 - Modular Architecture & Enhanced Components
 - ✅ **NEW**: Complete code refactoring with modular components
 - ✅ **NEW**: Separate component files for better maintainability
 - ✅ **NEW**: Enhanced single account generation with refactored architecture
