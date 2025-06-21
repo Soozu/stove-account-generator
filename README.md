@@ -14,7 +14,9 @@ This is a **100% FREE** version of the STOVE Account Generator with full functio
 | Multi-threaded Generation | ✅ 1 thread (optimized for free version) |
 | **Single Account Generation** | ✅ **Enhanced individual account creation** |
 | **Modular Architecture** | ✅ **Refactored component system** |
+| **Maildrop.cc Email Integration** | ✅ **Custom email names with clipboard copy** |
 | Smart Email Management | ✅ Prevents email reuse |
+| **Enhanced STOVE Verification** | ✅ **Advanced verification code extraction** |
 | Chrome Window Positioning | ✅ Optimized window layouts |
 | Chrome Cache Cleaning | ✅ Full cache optimization |
 | System Health Check | ✅ Complete system diagnostics |
@@ -29,20 +31,20 @@ This is a **100% FREE** version of the STOVE Account Generator with full functio
 | Google Chrome Optimization | ✅ Full optimization |
 | **Automatic Updates** | ✅ **Download & install from GitHub** |
 
-## 🚀 **New in v1.2.3**
+## 🚀 **New in v1.2.6**
 
-- ✅ **ChromeDriver Management** - Comprehensive automatic driver management system
-- ✅ **Build System Enhancements** - Interactive selector for Default/Modular/Both terminals
-- ✅ **Path Management Fixes** - Resolved all ChromeDriver download and placement issues
-- ✅ **Unicode Compatibility** - Fixed encoding issues for Windows console compatibility
-- ✅ **Enhanced Error Handling** - Better feedback for driver and build issues
-- ✅ **Cross-Platform Support** - Improved Windows environment compatibility
-- ✅ **Documentation Updates** - Comprehensive build guides and troubleshooting
+- ✅ **Maildrop.cc Email Integration** - Custom email names with @maildrop.cc domain
+- ✅ **Automatic Clipboard Copy** - Email automatically copied for easy STOVE pasting
+- ✅ **Enhanced STOVE Verification** - Advanced verification code extraction with multiple methods
+- ✅ **Seamless Email Workflow** - Direct flow from email creation to STOVE registration
+- ✅ **Smart Email Management** - Improved email tracking and reuse prevention
+- ✅ **Enhanced User Experience** - Streamlined account creation process
+- ✅ **Build System Updates** - Full integration of new email features
 
 ## 📥 Download
 
-### Current Version: v1.2.3
-- **Features**: Full feature set with unlimited account generation + enhanced ChromeDriver management
+### Current Version: v1.2.6
+- **Features**: Full feature set with unlimited account generation + Maildrop.cc email integration + enhanced ChromeDriver management
 - **Download**: [Latest Release](https://github.com/Soozu/stove-account-generator/releases/latest)
 - **License**: **100% FREE - No license required!**
 - **Updates**: Automatic updates from GitHub
@@ -56,7 +58,7 @@ This is a **100% FREE** version of the STOVE Account Generator with full functio
 ## 🛠️ Installation
 1. Download the latest version from [GitHub Releases](https://github.com/Soozu/stove-account-generator/releases/latest)
 2. Extract the ZIP file to your desired location
-3. Run `STOVE_Account_Generator_v1.2.3.exe` as Administrator
+3. Run `STOVE_Account_Generator_v1.2.6.exe` as Administrator
 4. Follow the on-screen instructions to generate accounts
 5. **No license key needed - it's completely FREE!**
 
@@ -75,8 +77,9 @@ The application now features an advanced update system:
 1. **Launch** the application
 2. **Choose** "Generate Accounts" from the main menu
 3. **Enter** the number of accounts (1-100)
-4. **Wait** for generation to complete
-5. **Find** your accounts in the custom save location or desktop
+4. **Watch** as custom Maildrop.cc emails are created and automatically copied to clipboard
+5. **Wait** for seamless STOVE registration with automatic email handling
+6. **Find** your accounts in the custom save location or desktop
 
 ## 📱 **Menu Options**
 
@@ -110,7 +113,18 @@ The built-in system health check verifies:
 
 ## 📝 **Changelog**
 
-### v1.2.3 - ChromeDriver Path Management & Build System Fixes (Current)
+### v1.2.6 - Maildrop.cc Email Integration & Enhanced Workflow (Current)
+- ✅ **NEW**: Maildrop.cc email service integration with custom email names
+- ✅ **NEW**: Automatic email clipboard copy for seamless STOVE registration
+- ✅ **NEW**: Enhanced STOVE verification code extraction with multiple detection methods
+- ✅ **NEW**: Unified email handler supporting multiple email services
+- ✅ **NEW**: Smart email workflow - direct flow from creation to STOVE registration
+- ✅ **NEW**: Advanced email management with tracking and reuse prevention
+- ✅ **IMPROVED**: User experience with automatic email handling
+- ✅ **IMPROVED**: Build system integration for new email features
+
+
+### v1.2.3 - ChromeDriver Path Management & Build System Fixes
 - ✅ **NEW**: Comprehensive ChromeDriver management system with automatic version detection
 - ✅ **NEW**: Smart Chrome version compatibility checking and auto-updates
 - ✅ **NEW**: Centralized ChromeDriverManager for reliable path resolution
@@ -182,8 +196,8 @@ This project includes a comprehensive build system:
 
 ### Build Commands:
 ```bash
-# Update version and build with refactored components
-python build.py --type minor --name "Modular Architecture"
+# Update version and build with email integration
+python build.py --type minor --name "Maildrop.cc Email Integration"
 
 # Test refactored components before building
 python test_refactored_components.py
