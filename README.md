@@ -53,11 +53,6 @@ This is a **100% FREE** version of the STOVE Account Generator with full functio
 - ✅ **Enhanced Performance** - Significantly faster account generation
 - ✅ **Improved Stability** - Removed unnecessary browser tab management
 
-## 🎥 **Video Tutorial**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="STOVE Account Generator Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-*Replace `YOUR_VIDEO_ID` with your actual YouTube video ID*
 
 ## 📥 Download
 
