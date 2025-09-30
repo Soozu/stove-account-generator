@@ -50,7 +50,7 @@ This is a **100% FREE** version of the STOVE Account Generator with full functio
 
 ## 🎥 **Video Tutorial**
 
-<iframe width="560" height="315" src="https://streamable.com/5bem7c" title="STOVE Account Generator Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+### https://streamable.com/5bem7c
 
 
 ## 📥 Download
