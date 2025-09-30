@@ -30,21 +30,33 @@ This is a **100% FREE** version of the STOVE Account Generator with full functio
 | License Verification | ❌ **Not required - completely FREE!** |
 | Google Chrome Optimization | ✅ Full optimization |
 | **Automatic Updates** | ✅ **Download & install from GitHub** |
+| **User Authentication** | ✅ **Secure login with user roles** |
+| **Railway MySQL Database** | ✅ **Online account storage** |
+| **Database Backup & Export** | ✅ **Full backup and CSV export** |
+| **Account Statistics** | ✅ **User-specific analytics** |
+| **Session Management** | ✅ **Persistent user sessions** |
 
-## 🚀 **New in v1.2.6**
+## 🚀 **New in v1.2.8**
 
-- ✅ **Maildrop.cc Email Integration** - Custom email names with @maildrop.cc domain
-- ✅ **Automatic Clipboard Copy** - Email automatically copied for easy STOVE pasting
-- ✅ **Enhanced STOVE Verification** - Advanced verification code extraction with multiple methods
-- ✅ **Seamless Email Workflow** - Direct flow from email creation to STOVE registration
-- ✅ **Smart Email Management** - Improved email tracking and reuse prevention
-- ✅ **Enhanced User Experience** - Streamlined account creation process
-- ✅ **Build System Updates** - Full integration of new email features
+- ✅ **User Authentication System** - Secure login with user roles and session management
+- ✅ **Railway MySQL Database Integration** - Online account storage and management
+- ✅ **Database Backup & Export** - Full database backup and CSV export functionality
+- ✅ **Account Statistics** - Comprehensive user-specific account analytics
+- ✅ **Enhanced Security** - bcrypt password hashing and secure authentication
+- ✅ **Graceful Fallback** - Works with or without database dependencies
+- ✅ **Recent Accounts Management** - Save local accounts to online database
+- ✅ **Clean UI** - Removed problematic toast notifications for better stability
+- ✅ **Build System Improvements** - Enhanced PyInstaller configuration
+
+## 🎥 **Video Tutorial**
+
+<iframe width="560" height="315" src="https://streamable.com/5bem7c" title="STOVE Account Generator Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ## 📥 Download
 
-### Current Version: v1.2.6
-- **Features**: Full feature set with unlimited account generation + Maildrop.cc email integration + enhanced ChromeDriver management
+### Current Version: v1.2.8
+- **Features**: Full feature set with unlimited account generation + Maildrop.cc email integration + enhanced ChromeDriver management + User Authentication System + Railway MySQL Database
 - **Download**: [Latest Release](https://github.com/Soozu/stove-account-generator/releases/latest)
 - **License**: **100% FREE - No license required!**
 - **Updates**: Automatic updates from GitHub
@@ -58,7 +70,7 @@ This is a **100% FREE** version of the STOVE Account Generator with full functio
 ## 🛠️ Installation
 1. Download the latest version from [GitHub Releases](https://github.com/Soozu/stove-account-generator/releases/latest)
 2. Extract the ZIP file to your desired location
-3. Run `STOVE_Account_Generator_v1.2.6.exe` as Administrator
+3. Run `STOVE_Account_Generator_v1.2.8.exe` as Administrator
 4. Follow the on-screen instructions to generate accounts
 5. **No license key needed - it's completely FREE!**
 
@@ -84,16 +96,19 @@ The application now features an advanced update system:
 ## 📱 **Menu Options**
 
 1. **Generate Accounts (Threaded)** - Create multiple accounts using optimized threading
-2. **Generate Single Account (Enhanced)** - Create individual accounts with refactored components
-3. **View Recent Accounts** - See your last generated accounts
-4. **System Health** - Check system status and requirements
-5. **Check for Updates** - Get latest version from GitHub
-6. **View Logs** - Diagnose any issues
-7. **Update ChromeDriver** - Download latest compatible driver
+2. **View Recent Accounts (Files)** - See your last generated accounts from local files
+3. **View Database Accounts** - See accounts stored in online database
+4. **Account Statistics** - View comprehensive account analytics
+5. **System Health** - Check system status and requirements
+6. **Check for Updates** - Get latest version from GitHub
+7. **View Logs** - Diagnose any issues
 8. **Clear Chrome Cache** - Optimize Chrome performance
-9. **Test Components** - Verify refactored components functionality
+9. **Update ChromeDriver** - Download latest compatible driver
 10. **Set Save Location** - Choose where to save accounts
-11. **Exit** - Close the application
+11. **File Organization** - Organize and manage account files
+12. **Database Backup** - Backup and export database
+13. **Logout** - Sign out of your account
+14. **Exit** - Close the application
 
 ## 🔧 **System Health Check**
 
@@ -113,7 +128,20 @@ The built-in system health check verifies:
 
 ## 📝 **Changelog**
 
-### v1.2.6 - Maildrop.cc Email Integration & Enhanced Workflow (Current)
+### v1.2.8 - User Authentication System & Database Integration (Current)
+- ✅ **NEW**: Complete user authentication system with secure login
+- ✅ **NEW**: Railway MySQL database integration for online account storage
+- ✅ **NEW**: User roles and session management with persistent login
+- ✅ **NEW**: Database backup and export functionality (full backup + CSV export)
+- ✅ **NEW**: Account statistics with user-specific analytics
+- ✅ **NEW**: Recent accounts migration from local files to database
+- ✅ **NEW**: Enhanced security with bcrypt password hashing
+- ✅ **NEW**: Graceful fallback system for missing dependencies
+- ✅ **IMPROVED**: Clean UI by removing problematic toast notifications
+- ✅ **IMPROVED**: Build system with better PyInstaller configuration
+- ✅ **IMPROVED**: Error handling and user feedback throughout the application
+
+### v1.2.6 - Maildrop.cc Email Integration & Enhanced Workflow
 - ✅ **NEW**: Maildrop.cc email service integration with custom email names
 - ✅ **NEW**: Automatic email clipboard copy for seamless STOVE registration
 - ✅ **NEW**: Enhanced STOVE verification code extraction with multiple detection methods
