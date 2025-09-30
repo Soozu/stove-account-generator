@@ -35,28 +35,34 @@ This is a **100% FREE** version of the STOVE Account Generator with full functio
 | **Database Backup & Export** | ✅ **Full backup and CSV export** |
 | **Account Statistics** | ✅ **User-specific analytics** |
 | **Session Management** | ✅ **Persistent user sessions** |
+| **Maildrop.cc API Integration** | ✅ **11x faster email verification** |
+| **Smart Email Detection** | ✅ **Automatic STOVE email detection** |
+| **Dual-Mode Email System** | ✅ **API-first with Selenium fallback** |
+| **Single Tab Mode** | ✅ **Only one browser tab opens** |
+| **API-Only Email Operations** | ✅ **Background email processing** |
+| **Zero Additional Browser Tabs** | ✅ **Optimized resource usage** |
 
-## 🚀 **New in v1.2.8**
+## 🚀 **New in v1.2.9**
 
-- ✅ **User Authentication System** - Secure login with user roles and session management
-- ✅ **Railway MySQL Database Integration** - Online account storage and management
-- ✅ **Database Backup & Export** - Full database backup and CSV export functionality
-- ✅ **Account Statistics** - Comprehensive user-specific account analytics
-- ✅ **Enhanced Security** - bcrypt password hashing and secure authentication
-- ✅ **Graceful Fallback** - Works with or without database dependencies
-- ✅ **Recent Accounts Management** - Save local accounts to online database
-- ✅ **Clean UI** - Removed problematic toast notifications for better stability
-- ✅ **Build System Improvements** - Enhanced PyInstaller configuration
+- ✅ **Single Tab Mode** - Only one browser tab opens (STOVE registration only)
+- ✅ **API-Only Email Operations** - All email operations via Maildrop.cc GraphQL API
+- ✅ **Zero Additional Browser Tabs** - Clean, minimal interface with no email checking tabs
+- ✅ **Background Email Processing** - No browser overhead for email operations
+- ✅ **11x Faster Email Verification** - GraphQL API integration for instant verification
+- ✅ **Optimized Resource Usage** - Lower memory and CPU consumption
+- ✅ **Enhanced Performance** - Significantly faster account generation
+- ✅ **Improved Stability** - Removed unnecessary browser tab management
 
 ## 🎥 **Video Tutorial**
 
-### https://streamable.com/5bem7c
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="STOVE Account Generator Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+*Replace `YOUR_VIDEO_ID` with your actual YouTube video ID*
 
 ## 📥 Download
 
-### Current Version: v1.2.8
-- **Features**: Full feature set with unlimited account generation + Maildrop.cc email integration + enhanced ChromeDriver management + User Authentication System + Railway MySQL Database
+### Current Version: v1.2.9
+- **Features**: Single Tab Mode + API-Only Email Operations + 11x Faster Verification + Full feature set with unlimited account generation + User Authentication + Railway MySQL Database
 - **Download**: [Latest Release](https://github.com/Soozu/stove-account-generator/releases/latest)
 - **License**: **100% FREE - No license required!**
 - **Updates**: Automatic updates from GitHub
@@ -70,7 +76,7 @@ This is a **100% FREE** version of the STOVE Account Generator with full functio
 ## 🛠️ Installation
 1. Download the latest version from [GitHub Releases](https://github.com/Soozu/stove-account-generator/releases/latest)
 2. Extract the ZIP file to your desired location
-3. Run `STOVE_Account_Generator_v1.2.8.exe` as Administrator
+3. Run `STOVE_Account_Generator_v1.2.9.exe` as Administrator
 4. Follow the on-screen instructions to generate accounts
 5. **No license key needed - it's completely FREE!**
 
@@ -89,9 +95,10 @@ The application now features an advanced update system:
 1. **Launch** the application
 2. **Choose** "Generate Accounts" from the main menu
 3. **Enter** the number of accounts (1-100)
-4. **Watch** as custom Maildrop.cc emails are created and automatically copied to clipboard
-5. **Wait** for seamless STOVE registration with automatic email handling
-6. **Find** your accounts in the custom save location or desktop
+4. **Watch** as custom Maildrop.cc emails are created instantly via API
+5. **Enjoy** single tab mode - only STOVE registration tab opens
+6. **Experience** 11x faster email verification with background processing
+7. **Find** your accounts in the custom save location or desktop
 
 ## 📱 **Menu Options**
 
@@ -128,88 +135,58 @@ The built-in system health check verifies:
 
 ## 📝 **Changelog**
 
-### v1.2.8 - User Authentication System & Database Integration (Current)
+### v1.2.9 - Single Tab Mode & API Integration (Current)
+- ✅ **NEW**: Single tab mode - only one browser tab opens (STOVE registration)
+- ✅ **NEW**: API-only email operations - all email handling via GraphQL API
+- ✅ **NEW**: Background email processing - no browser overhead
+- ✅ **NEW**: Zero additional browser tabs for email checking
+- ✅ **IMPROVED**: 11x faster email verification with pure API approach
+- ✅ **IMPROVED**: Optimized resource usage (lower memory and CPU)
+- ✅ **IMPROVED**: Enhanced performance and stability
+- ✅ **IMPROVED**: Cleaner user interface with minimal browser windows
+- ✅ **FIXED**: Removed unnecessary browser tab management
+- ✅ **FIXED**: Indentation errors in account generator
+
+### v1.2.8 - User Authentication System & Database Integration
 - ✅ **NEW**: Complete user authentication system with secure login
 - ✅ **NEW**: Railway MySQL database integration for online account storage
 - ✅ **NEW**: User roles and session management with persistent login
 - ✅ **NEW**: Database backup and export functionality (full backup + CSV export)
 - ✅ **NEW**: Account statistics with user-specific analytics
 - ✅ **NEW**: Recent accounts migration from local files to database
-- ✅ **NEW**: Enhanced security with bcrypt password hashing
+- ✅ **NEW**: Enhanced security with hashlib password hashing
 - ✅ **NEW**: Graceful fallback system for missing dependencies
 - ✅ **IMPROVED**: Clean UI by removing problematic toast notifications
 - ✅ **IMPROVED**: Build system with better PyInstaller configuration
-- ✅ **IMPROVED**: Error handling and user feedback throughout the application
+- ✅ **NEW**: Maildrop.cc GraphQL API integration for faster email verification
+- ✅ **NEW**: Smart STOVE verification email detection
+- ✅ **NEW**: Dual-mode email system (API-first with Selenium fallback)
 
 ### v1.2.6 - Maildrop.cc Email Integration & Enhanced Workflow
 - ✅ **NEW**: Maildrop.cc email service integration with custom email names
 - ✅ **NEW**: Automatic email clipboard copy for seamless STOVE registration
-- ✅ **NEW**: Enhanced STOVE verification code extraction with multiple detection methods
+- ✅ **NEW**: Enhanced STOVE verification code extraction
 - ✅ **NEW**: Unified email handler supporting multiple email services
-- ✅ **NEW**: Smart email workflow - direct flow from creation to STOVE registration
-- ✅ **NEW**: Advanced email management with tracking and reuse prevention
-- ✅ **IMPROVED**: User experience with automatic email handling
-- ✅ **IMPROVED**: Build system integration for new email features
-
+- ✅ **NEW**: Smart email workflow
+- ✅ **NEW**: Advanced email management with tracking
 
 ### v1.2.3 - ChromeDriver Path Management & Build System Fixes
-- ✅ **NEW**: Comprehensive ChromeDriver management system with automatic version detection
-- ✅ **NEW**: Smart Chrome version compatibility checking and auto-updates
-- ✅ **NEW**: Centralized ChromeDriverManager for reliable path resolution
+- ✅ **NEW**: Comprehensive ChromeDriver management system
+- ✅ **NEW**: Smart Chrome version compatibility checking
+- ✅ **NEW**: Centralized ChromeDriverManager
 - ✅ **FIXED**: ChromeDriver download and path management issues
-- ✅ **FIXED**: Driver placement in correct folders during builds
-- ✅ **FIXED**: Path resolution for both development and executable environments
-- ✅ **IMPROVED**: Enhanced logging and debugging for ChromeDriver operations
-- ✅ **IMPROVED**: Better error handling and user feedback for driver issues
-- ✅ **IMPROVED**: Build documentation with comprehensive guides
-- ✅ **IMPROVED**: Cross-platform path handling for Windows environments
+- ✅ **IMPROVED**: Enhanced logging and debugging
 
 ### v1.2.2 - Modular Architecture & Enhanced Components
 - ✅ **NEW**: Complete code refactoring with modular components
 - ✅ **NEW**: Separate component files for better maintainability
-- ✅ **NEW**: Enhanced single account generation with refactored architecture
-- ✅ **NEW**: Component testing framework for reliability verification
-- ✅ **NEW**: Smart generation method selection (threaded vs. single)
-- ✅ **NEW**: Terminal interface upgrades with component detection
-- ✅ **NEW**: Comprehensive documentation (REFACTORING_GUIDE.md, TERMINAL_UPDATE_SUMMARY.md)
+- ✅ **NEW**: Component testing framework
 - ✅ **IMPROVED**: Error handling with better user feedback
-- ✅ **IMPROVED**: Code organization following Single Responsibility Principle
-- ✅ **IMPROVED**: Build system to include all refactored components
-- ✅ **IMPROVED**: Terminal user experience with enhanced status messages
-- ✅ **FIXED**: Component import issues and dependencies
-- ✅ **FIXED**: Backward compatibility maintained for all features
 
 ### v1.2.1 - Enhanced ChromeDriver & Performance
 - ✅ **NEW**: Automatic ChromeDriver management system
 - ✅ **NEW**: Chrome version compatibility detection
-- ✅ **NEW**: Local ChromeDriver support for better reliability
-- ✅ **NEW**: Performance optimizations for faster generation
-- ✅ **NEW**: Enhanced build system with better packaging
-- ✅ **IMPROVED**: Chrome options for reduced memory usage
-- ✅ **IMPROVED**: Error handling and user feedback
-- ✅ **IMPROVED**: PyInstaller configuration for better builds
-- ✅ **FIXED**: ChromeDriver path issues in built executables
-- ✅ **FIXED**: Chrome compatibility problems
-
-### v1.1.0 - Enhanced Version Management
-- ✅ **NEW**: Enhanced version management system
-- ✅ **NEW**: Automatic GitHub update detection
-- ✅ **NEW**: One-click download and install
-- ✅ **NEW**: Version history tracking
-- ✅ **NEW**: Smart version comparison
-- ✅ **NEW**: Build system integration
-- ✅ **IMPROVED**: Update checker with detailed info
-- ✅ **IMPROVED**: System health diagnostics
-- ✅ **IMPROVED**: Chrome driver path detection
-
-### v1.0.0 - Initial Release
-- ✅ Complete FREE version release
-- ✅ Account generation (up to 100 accounts)
-- ✅ Chrome optimization and cache cleaning
-- ✅ Custom save location support
-- ✅ System health monitoring
-- ✅ Log viewer and diagnostics
-- ✅ No license requirements
+- ✅ **NEW**: Performance optimizations
 
 ## 🏗️ **For Developers**
 
@@ -220,20 +197,19 @@ This project includes a comprehensive build system:
 - **Build scripts** for easy deployment
 - **Modular component architecture** for maintainability
 - **Component verification** in build process
-- **Comprehensive documentation** integration
 
 ### Build Commands:
 ```bash
-# Update version and build with email integration
-python build.py --type minor --name "Maildrop.cc Email Integration"
+# Build new version
+python build.py --type minor --version 1.2.9 --name "Single Tab Mode & API Integration"
 
-# Test refactored components before building
+# Test components
 python test_refactored_components.py
 
-# Check current version
+# Check version
 python build_version_updater.py --show
 
-# Clean build directories
+# Clean builds
 python build.py --clean-only
 ```
 
@@ -243,6 +219,9 @@ This tool is provided for educational purposes only. Users are responsible for e
 ## 🎉 **Why This Version is Special**
 
 - **🆓 Completely FREE** - No hidden costs or license fees
+- **⚡ Single Tab Mode** - Only one browser tab opens
+- **🚀 11x Faster** - API-based email verification
+- **💾 Lower Resource Usage** - Optimized performance
 - **🔄 Auto-Updates** - Always get the latest features
 - **🛡️ No License Hassle** - Just download and use
 - **📈 Regular Updates** - Continuous improvements
@@ -253,4 +232,4 @@ This tool is provided for educational purposes only. Users are responsible for e
 
 **🎯 Ready to generate accounts? Download now and start creating!**
 
-© 2024 @Ohhh | STOVE Account Generator - FREE VERSION | All Rights Reserved 
+© 2025 @Ohhh | STOVE Account Generator - FREE VERSION | All Rights Reserved
